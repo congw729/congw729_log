@@ -56,8 +56,10 @@ Prediction values' types:
 
 ## 1.5 发展历程
 1950~70 years: Given logic inductive ablity to machine: Logic Theroist, General Problem Solving,
+
 1970 years mid: Given knowledge to machine
-1980 years: Let machine able to learn knowledge. IWML(ICML now)
+
+1980 years: Let machine be able to learn knowledge. IWML(ICML now)
 
 1983 将机器学习划分为很多类，到目前被研究最多应用最广的是**从样例中学习/广义的归纳学习**，其中又有几大流派：
 1. 符号主义学习：（第四章）
