@@ -11,6 +11,6 @@ This paper list contains papers of diffusion models in vision area.
 9. **Imagen** [Imagen:Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487)May 2022,  from Google Brain. Using pretrained languange model - T5.
 
 Some good materials to get start with:
-1. [Lilianweng's log](https://lilianweng.github.io/posts/2021-07-11-diffusion-models)
-2. [Youtuber@AICofeeBreak](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
-3. [Bilibili@deep_thoughts - DDPM algorithm and code, explained (Chinese)](https://www.bilibili.com/video/BV1b541197HX/?spm_id_from=333.337.search-card.all.click&vd_source=12957bc7127f3a408af0ba8928de89b3)
+1. [Lilianweng's Log - What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models)
+2. [Youtuber@AICofeeBreak - "diffusion" related videos](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
+3. [Bilibili@deep_thoughts - DDPM algorithm and its codes, video explained (Chinese)](https://www.bilibili.com/video/BV1b541197HX/?spm_id_from=333.337.search-card.all.click&vd_source=12957bc7127f3a408af0ba8928de89b3)
