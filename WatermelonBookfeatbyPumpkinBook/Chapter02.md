@@ -16,10 +16,30 @@ Ideally, evaluating the generalization error of models which is not possible.
 ## 2.2 评估方法
 
 Using testing set to mock new samples, then get simulated generalization error. Ways to generate test set/evaluating generalizability:
+
 1. hold-out: 留出法
-2. cross validation: 交叉验证法
+	将数据集分为两个互斥的集合，一个为训练集，一个为测试集。测试误差作为对泛化误差的估计。
+	- stratified sampling 分层采样：保留类别比例的采样方式  -> 目的是为了保衡数据分布的一致性，避免数据划分过程中引入额外的偏差。
+	- 为了得到稳定可靠的估计结果：需要进行若干次随机划分，重复进行试验评估后，取平均值。
+	- 训练集和测试集的比例是一个delimma，训练集过大，评估结果不够稳定准确；训练集过小，降低了评估结果的保真性fidelity。
+	- 常见的比例是2:1，4:1 。
+	
+2. cross validation / *k*-fold cross validation: 交叉验证法
+	将数据集划分为*k*个互斥子集，每个子集从数据集中分层采样得到，尽量保持数据分布的一致性。 
+	- 每次训练用*k-1*个子集训练，剩下的那个子集进行测试。训练出k个模型，一共得到k个评估结果，取均值。
+	- 评估结果的稳定性和保真性很大程度上取决于k的取值，k常用取值为10。
+	- 为了减少因样本划分不同而引入的差别：随机使用不同划分方法重复p次，最终取p次k折交叉验证结果的均值。
+	- Leave One Out： 留一法，当k值和数据集大小相同时。该方法评估结果往往被认为比较准确，但是数据集很大时开计算开销很大。
+	- No Free Lunch对实验评估方法依然适用。
+	
 3. bootstrapping: 自助法
+	从数据集中有放回的采样，直到新构建的数据集和原始数据集相同。
+	新构建的数据集用于训练，原始数据集中没有被采样到的数据作为测试（大概占原始数据集的36.8%）。
+	- pros：在数据集小，难以划分训练测试集时很有用；能产生的多个数据集，对集成学习方法很有好处。
+	- cons：改变了数据集的分布，会引入estimate bias
+	
 4. parameter tunning: 调参
+	
 
 ## 2.3 性能度量
 - performance measure: the metric to evaluate the generalizability of models.
@@ -66,4 +86,5 @@ Solutions:
 - variance: 方差，the difference of predictions due to different training set
 - noise: the difference of label and ground truth
 - generalization error: could be seen as the composition of bias, variance and noise.
+
 
