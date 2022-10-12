@@ -14,13 +14,13 @@ This paper list contains papers of diffusion models in vision (image/video gener
 
 　
 ## Video Genereation: 
-1. Video Diffusion Models, Apr 2022, GIF like 
+1. Video Diffusion Models, Apr 2022, GIF like, 
 2. Make A Video, 29 Sep 2022, from Meta
 3. Imagen Video, 5 Oct 2022, from Google Brain (Also annoced Phenaki for long video generation, but it is not diffusion model)
 
 🦄 **Some good materials to get start with:**
 1. [Lilianweng's Log - What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models)
-2. [Youtuber@AICofeeBreak - "diffusion" related videos](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
+2. [Youtube@AICofeeBreak - "diffusion" related videos](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
 3. [Bilibili@deep_thoughts - DDPM algorithm and its codes, video explained (Chinese)](https://www.bilibili.com/video/BV1b541197HX/?spm_id_from=333.337.search-card.all.click&vd_source=12957bc7127f3a408af0ba8928de89b3)
 
 
