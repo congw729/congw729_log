@@ -18,6 +18,7 @@ Ideally, evaluating the generalization error of models which is not possible.
 Using testing set to mock new samples, then get simulated generalization error. Ways to generate test set/evaluating generalizability:
 
 1. hold-out: 留出法
+	
 	将数据集分为两个互斥的集合，一个为训练集，一个为测试集。测试误差作为对泛化误差的估计。
 	- stratified sampling 分层采样：保留类别比例的采样方式  -> 目的是为了保衡数据分布的一致性，避免数据划分过程中引入额外的偏差。
 	- 为了得到稳定可靠的估计结果：需要进行若干次随机划分，重复进行试验评估后，取平均值。
@@ -25,6 +26,7 @@ Using testing set to mock new samples, then get simulated generalization error. 
 	- 常见的比例是2:1，4:1 。
 	
 2. cross validation / *k*-fold cross validation: 交叉验证法
+	
 	将数据集划分为*k*个互斥子集，每个子集从数据集中分层采样得到，尽量保持数据分布的一致性。 
 	- 每次训练用*k-1*个子集训练，剩下的那个子集进行测试。训练出k个模型，一共得到k个评估结果，取均值。
 	- 评估结果的稳定性和保真性很大程度上取决于k的取值，k常用取值为10。
@@ -33,23 +35,30 @@ Using testing set to mock new samples, then get simulated generalization error. 
 	- No Free Lunch对实验评估方法依然适用。
 	
 3. bootstrapping: 自助法
+	
 	从数据集中有放回的采样，直到新构建的数据集和原始数据集相同。
+	
 	新构建的数据集用于训练，原始数据集中没有被采样到的数据作为测试（大概占原始数据集的36.8%）。
+	
 	- pros：在数据集小，难以划分训练测试集时很有用；能产生的多个数据集，对集成学习方法很有好处。
 	- cons：改变了数据集的分布，会引入estimate bias
 	
 4. parameter tunning: 调参
-	
+	- validation set:  基于验证集上的性能进行模型选择和调参。
 
 ## 2.3 性能度量
 - performance measure: the metric to evaluate the generalizability of models.
+
 - measures for regression task: 
 	1. mean squared error (MSE)
 	2. MSE constructed by distribution and probability density function
+	
 - measures for classification task:
 	1. error rate & accurancy 
+		
 		extra represntations constructed by distribution and probability density function)
 	2. precision & recall   查准率与查全率
+		
 		confusion matrix here 
 		- precision = TP/(TP+FP)
 		- recall = TP/(TP+FN)
@@ -59,6 +68,7 @@ Using testing set to mock new samples, then get simulated generalization error. 
 			- F_\beta: using \beta to control the weight of precision and recall. \beta > 1, recall matters more. \beta < 1, precision matters more.
 			- macro-P, micro-R and micro-F1: when when have multiple binary classification confusion matrix
 	3. ROC & AUC 
+		
 		For classification task, there is a thershold for logits results. 
 		- ROC: receiver operating characteristic. TPR is y axis, FPR is x.
 		- TPR = TP/(TP+FN)
@@ -87,4 +97,4 @@ Solutions:
 - noise: the difference of label and ground truth
 - generalization error: could be seen as the composition of bias, variance and noise.
 
-
+## 习题
