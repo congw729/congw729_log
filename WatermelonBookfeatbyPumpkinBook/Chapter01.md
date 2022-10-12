@@ -55,9 +55,9 @@ Prediction values' types:
 ```
 
 ## 1.5 发展历程
-1950~70 years: Given logic inductive ablity to machine: Logic Theroist, General Problem Solving,
+1950~70 years: Giving logic inductive ablity to machine: Logic Theroist, General Problem Solving,
 
-1970 years mid: Given knowledge to machine
+1970 years mid: Giving knowledge to machine
 
 1980 years: Let machine be able to learn knowledge. IWML(ICML now)
 
