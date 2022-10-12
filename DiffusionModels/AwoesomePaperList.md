@@ -8,5 +8,9 @@ This paper list contains papers of diffusion models in vision area.
 6.  🌟**Stable Diffusion/LDM** [High-resolution image synthesis with latent diffusion models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)  DEC 2021, from Stability.AI & LMU Munic & Runwa. Very awoesome for releasing codes & weights for free! 
 7. **GLIDE** [Glide: Towards photorealistic image generation and editing with text-guided diffusion models](https://arxiv.org/abs/2112.10741) Dec 2021, from OpenAI
 8. **Dalle-2,** [Hierarchical text-conditional image generation with clip latents](https://arxiv.org/abs/2204.06125) Apr 2022, from OpenAI. Btw, Dalle using different architecture - GAN. 
-9. **Imagen**[Imagen:Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487)May 2022,  from Google Brain. Using pretrained languange model - T5.
+9. **Imagen** [Imagen:Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487)May 2022,  from Google Brain. Using pretrained languange model - T5.
 
+Some good materials to get start with:
+1. [Lilianweng's log](https://lilianweng.github.io/posts/2021-07-11-diffusion-models)
+2. [Youtuber@AICofeeBreak](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
+3. [Bilibili@deep_thoughts - DDPM algorithm and code, explained (Chinese)](https://www.bilibili.com/video/BV1b541197HX/?spm_id_from=333.337.search-card.all.click&vd_source=12957bc7127f3a408af0ba8928de89b3)
