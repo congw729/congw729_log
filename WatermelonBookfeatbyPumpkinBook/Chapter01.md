@@ -62,14 +62,20 @@ Prediction values' types:
 1980 years: Let machine be able to learn knowledge. IWML(ICML now)
 
 1983 将机器学习划分为很多类，到目前被研究最多应用最广的是**从样例中学习/广义的归纳学习**，其中又有几大流派：
+
 1. 符号主义学习：（第四章）
 	1. 决策树：信息论为基础，信息熵最小化为目标，模拟人类对概念判定的树形流程
 	2. 基于逻辑的学习：著名代表为Inductive Logic Programming(ILP): too much powerful on representation -> 假设空间太大，复杂度太高
+	
 2. 基于神经网络的连接主义学习：（第五章）
+	
 	最大的局限性是“试错性”，学习过程涉及大量参数，参数设置缺乏理论指导，参数调节对学习结果影响巨大。
+	
 	现在卷土重来，”深度学习“热潮，因为现在的数据量大，计算能力强了。
 	当年八十年代走红，也与计算能力内存，访问效率提高有关
+	
 3. 统计学习：（第六章）
+	
 	代表技术： 支持向量机(Support Vector Machine)， 核方法(Kernel methods)
 
 
