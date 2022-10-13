@@ -62,11 +62,12 @@ Using testing set to mock new samples, then get simulated generalization error. 
 		confusion matrix here 
 		- precision = TP/(TP+FP)
 		- recall = TP/(TP+FN)
-		- PR Curve: precision is  y axis, recall is x and the area is bigger the better. 
+		- PR Curve: precision is  y axis, recall is x and the area is bigger the better. However the area is not easy calculated, so we have
 			- Break-Event Point(BEP): the value when precision == recall. The bigger the better
 			- **F1** = 2 \* precision \* recall / (precision + recall)
 			- F_\beta: using \beta to control the weight of precision and recall. \beta > 1, recall matters more. \beta < 1, precision matters more.
-			- macro-P, micro-R and micro-F1: when when have multiple binary classification confusion matrix
+			- macro-P, macro-R and macro-F1: when when have multiple binary classification confusion matrix, calculated by the mean of P and R.
+			- micro-P, micro-R and micro-F1: when when have multiple binary classification confusion matrix, calculated by the mean of TP, FP, TN, FN. 
 	3. ROC & AUC 
 		
 		For classification task, there is a thershold for logits results. 
@@ -74,8 +75,11 @@ Using testing set to mock new samples, then get simulated generalization error. 
 		- TPR = TP/(TP+FN)
 		- FPR = FP/(FP+TN)
 		- AUC: area under curve, the bigger the better
+		- *l_rank*: consider each pair of positive sample with negative sample, calculate the loss. AUC = 1 - *l_rank*
 	4. 代价敏感错误率与代价曲线
 		- unequal cost: for evaluateing the various cost due to various type of false prediction.
+		- cost matrix: 相当于给每一种错误加了权重，在计算时算加权loss
+		- cost curve: ROC is not sutable for unequal cost. Axis are different with ROC. \#Todo: 这个没有太看懂
 
 ## 2.4 比较检验
 Problem - Hard to do the evaluation:
@@ -97,4 +101,4 @@ Solutions:
 - noise: the difference of label and ground truth
 - generalization error: could be seen as the composition of bias, variance and noise.
 
-## 习题
+
