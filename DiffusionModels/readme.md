@@ -15,7 +15,7 @@ This paper list contains papers of awoesome diffusion models in vision (image/vi
 
 　
 ## Video Genereation: 
-1. Video Diffusion Models, Apr 2022, GIF like, 
+1. [**Video diffusion models**](https://arxiv.org/abs/2204.03458), Apr 2022, GIF like, 
 2. [Make-A-Video: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792), 29 Sep 2022, from Meta (Previous work is Make A Scence, VQ-VAE + classifer free guidence)
 3. [Imagen Video: High Definition Video Generation with Diffusion Models](https://arxiv.org/abs/2210.02303), 5 Oct 2022, from Google Brain (Also annoced[Phenaki](https://arxiv.org/abs/2210.02399) for long video generation, but it is not diffusion model)
 
