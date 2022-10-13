@@ -9,7 +9,7 @@
 	- parameter estimition: find the solution of *w* and *b*
 	- multivariate linear regression: need to calculate the inverse of matrix.
 	- log-linear regression: *ln y = w\*x + b*, make *e^(w\*x+b)* closing to y.
-	- generalized linear model: a link function *g()*  which is monotone and differentiable make  ![formular 3.15](img/Pasted image 20221013224707.png)
+	- generalized linear model: a link function *g()*  which is monotone and differentiable make  ![formular 3.15](img/image1.png)
 -
 
 ## 3.3 对数几率回归
