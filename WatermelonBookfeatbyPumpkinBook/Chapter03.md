@@ -8,12 +8,12 @@
 	- mean squred error -> least square method: attempts to find a line that minimizes the sum of the Euclidean distances from all samples to the line.
 	- parameter estimition: find the solution of *w* and *b*
 	- multivariate linear regression: need to calculate the inverse of matrix.
-	- log-linear regression: *ln y = w\*x + b*, make *e^(w\*x+b)* closing to y.
-	- generalized linear model: a link function *g()*  which is monotone and differentiable make  ![formular 3.15](img/image1.png)
--
+	- log-linear regression: $ln_y = w^{T}x + b$,  make $e^{w^{T}x+b}$ closing to y.
+	- generalized linear model: a link function *g()*  which is monotone and differentiable make  $y = g^{-1}(w^{T}x+b)$
 
 ## 3.3 对数几率回归
 - logistic regression
+- 
 
 ## 3.4 线性判别估计 
 - linear discriminant analysis
