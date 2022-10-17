@@ -6,6 +6,8 @@ Three cornerstone papers of diffusion models:
 2. **NCSN** [Generative modeling by estimating gradients of the data distribution](https://proceedings.neurips.cc/paper/2019/hash/3001ef257407d5a371a96dcd947c7d93-Abstract.html) 2019, Noice Conditioned Score Network
 3. **DDPM** [Denoising diffusion probabilistic models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) 2020, could seen as cornerstone of following diffusion model works
 
+[toc]
+
 # Vision
 ## Image generation
 1. **Improved diffusion** [Improved denoising diffusion probabilistic models](https://proceedings.mlr.press/v139/nichol21a.html) Feb 2021, from OpenAI.  (PMLR 139:8162-8171, 2021.)
