@@ -7,21 +7,34 @@ Three cornerstone papers of diffusion models:
 3. **DDPM** [Denoising diffusion probabilistic models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) 2020, could seen as cornerstone of following diffusion model works
 
 # Vision
-## Image generation (with or without text)
+## Image generation
 1. **Improved diffusion** [Improved denoising diffusion probabilistic models](https://proceedings.mlr.press/v139/nichol21a.html) Feb 2021, from OpenAI.  (PMLR 139:8162-8171, 2021.)
 2. **Guided diffusion** [Diffusion models beat gans on image synthesis](https://proceedings.neurips.cc/paper/2021/hash/49ad23d1ec9fa4bd8d77d02681df5cfa-Abstract.html) Apr 2021, from OpenAI. (NeurIPS 2021)
-3. 🌟**Stable Diffusion/LDM** [High-resolution image synthesis with latent diffusion models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)  Dec 2021, from Stability.AI & LMU Munic & Runway. Very awoesome for releasing codes & weights for free!
-4. [**Glide**: Towards photorealistic image generation and editing with text-guided diffusion models](https://arxiv.org/abs/2112.10741) Dec 2021, from OpenAI
-5. **Dalle-2** [Hierarchical text-conditional image generation with clip latents](https://arxiv.org/abs/2204.06125) Apr 2022, from OpenAI. Btw, Dalle using different architecture -  VQ-VAE. 
-6. [**KNN Diffusion**: Image Generation via Large-Scale Retrieval](https://arxiv.org/abs/2204.02849) Apr 2022, from Meta AI.
-7. [**Imagen**:Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487) May 2022,  from Google Brain. Using pretrained languange model - T5.
+3. ADM, May 2021, from OpenAI, NeurIPS 2021.
+4. FastDPM, May 2021, from NVIDIA, ICLR Workshop 2021.
+5. LSGM, Jun 2021, from NVIDIA, NeurIPS 2021.
+6. Distilled-DM, Feb 2022, from Google Brain, ICLR 2022.
+7. GGDM, Feb 2022, from Google Brain, ICLR 2022.
+
+## Text to Image
+1. 🌟**Stable Diffusion/LDM** [High-resolution image synthesis with latent diffusion models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)  Dec 2021, from Stability.AI & LMU Munic & Runway. Very awoesome for releasing codes & weights for free!
+2. [**Glide**: Towards photorealistic image generation and editing with text-guided diffusion models](https://arxiv.org/abs/2112.10741) Dec 2021, from OpenAI
+3. **Dalle-2** [Hierarchical text-conditional image generation with clip latents](https://arxiv.org/abs/2204.06125) Apr 2022, from OpenAI. Btw, Dalle using different architecture -  VQ-VAE. 
+4. [**KNN Diffusion**: Image Generation via Large-Scale Retrieval](https://arxiv.org/abs/2204.02849) Apr 2022, from Meta AI.
+5. [**Imagen**:Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487) May 2022,  from Google Brain. Using pretrained languange model - T5.
+6. LAION-RDM, Text-Guided Synthesis of Artistic Images with Retrieval-Augmented Diffusion Models, Jul 2022, from Ludwig-Maximilian University of Munich.
+7. DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation, Aug 2022, from Google Research & Boston University.
 8. [**DreamFusion**: Text-to-3D using 2D Diffusion](https://arxiv.org/abs/2209.14988) 29 Sep 2022, from Google Research & UCB.
 
-　
+## Image Editing
+1. SDEdit, Aug 2021, from Stanford University & Carnegie Mellon University, ICLR 2022
+2. RePaint, Jan 2022, from ETH Zurich, CVPR 2022.
+
 ## Video Genereation: 
-1. [**Video diffusion models**](https://arxiv.org/abs/2204.03458), Apr 2022, GIF like, 
-2. [**Make-A-Video**: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792), 29 Sep 2022, from Meta AI (Previous work is Make A Scence, VQ-VAE + classifer free guidence)
-3. [**Imagen Video**: High Definition Video Generation with Diffusion Models](https://arxiv.org/abs/2210.02303), 5 Oct 2022, from Google Brain (Also annoced [Phenaki](https://arxiv.org/abs/2210.02399) for long video generation, but it is not diffusion model)
+1. [**Video diffusion models**](https://arxiv.org/abs/2204.03458), Apr 2022, ICLR 2022 Workshop. GIF like.
+2. MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation, May 2022, from University of Montreal
+3. [**Make-A-Video**: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792), 29 Sep 2022, from Meta AI (Previous work is Make A Scence, VQ-VAE + classifer free guidence)
+4. [**Imagen Video**: High Definition Video Generation with Diffusion Models](https://arxiv.org/abs/2210.02303), 5 Oct 2022, from Google Brain (Also annoced [Phenaki](https://arxiv.org/abs/2210.02399) for long video generation, but it is not diffusion model)
 
 # Natural language:
 1. **Diffusion-LM** [Diffusion-LM Improves Controllable Text Generation]
