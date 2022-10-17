@@ -1,5 +1,5 @@
-# Awoesome Paper List for Diffusion Models
-This paper list contains papers of awoesome diffusion models in different fileds.
+# Awoesome Paper List of Diffusion Models
+This paper list contains papers of awoesome diffusion models in vision (image/video generation) area.
 
 Three cornerstone papers of diffusion models:
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](http://proceedings.mlr.press/v37/sohl-dickstein15.html) 2015, "Diffusion" occured in machine learning first time
