@@ -8,8 +8,12 @@
 ## 4.2 划分选择
 
 The key of decision tree is Line 8 in Figure 4.2, how to select the best partition attribute $a_*$.
-- information entropy: $$Ent(D) = -\sum_{k=1}^{|y|}p_k log_2{p_k}$$. ($p_k$: the proportion of the samples belong to $k$ label in dataset $D$. ) The bigger the entropy is, the lower purity of the dataset.
-- information gain: $Gain(D,a) = Ent(D) - \sum_{v=1}^V \frac{|D^v|}{|D|}Ent(D^v)$  (Arrtibute $a$  have $V$ possible values.) **Algorithm ID3** try to maximize information gain.
+- information entropy: $$Ent(D) = -\sum_{k=1}^{|y|}p_k log_2{p_k}$$
+	- $p_k$: the proportion of the samples belong to $k$ label in dataset $D$.
+	- The bigger the entropy is, the lower purity of the dataset.
+- information gain: $Gain(D,a) = Ent(D) - \sum_{v=1}^V \frac{|D^v|}{|D|}Ent(D^v)$  
+	- Arrtibute $a$  have $V$ possible values.
+	- **Algorithm ID3** try to maximize information gain.
 	- cons: prefer the attributes who have large number of $V$.
 - gain ratio: $$Gain\_ratio(D,a) = \frac{Gain(D,a)}{IV(a)}$$ and $IV(a) = - \sum_{v=1}^V \frac{|D^v|}{|D|} log_2 \frac{|D^v|}{|D|}$
 	- intrinsic value: $IV(a)$, the larger the $V$ is, the bigger the intrinsic value.
