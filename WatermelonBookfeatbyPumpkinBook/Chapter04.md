@@ -26,6 +26,27 @@ The key of decision tree is Line 8 in Figure 4.2, how to select the best partiti
 	- **Algorithm CART** try to minimize the Gini index after partition.
 	
 ## 4.3 剪枝处理
+- pruning: solution to overfitting
+	- prepruning: 在决策树生成过程中，对每个结点在划 分前先进行估计，若当前结点的划分不能带来决策树泛化性能提升，则停止划 分并将当前结点标记为叶结点。
+		- pros: 降低过拟合风险；减少决策树训练时间开销和测试时间开销；
+		- cons: 欠拟合风险。
+	- post-pruning: 先从训练集生成一棵完整的决策树, 然后自底向上地对非叶结点进行考察，若将该结点对应的子树替换为叶结点能带来决策树泛化性能提升，则将该子树替换为叶结点。
+		- 后剪枝决策树通常比预剪枝决策树保留了更多的分支
+		- pros：欠拟合风险小
+		- cons ：训练时间开销很大
+	- evaluation the generalization performance: Chapter2.2
+	
 ## 4.4 连续与缺失值
+- continuous attribute:
+	- bi-partition: 二分法
+		- find the value $t = \frac{(a^i + a^{i+1})}{2}$, and $a^i$ is the $i$th value of continuous attribute $a$.
+		- for continuous arritbute, could be reused as a node in decision tree.
+		- Algorithm C4.5 using this method
+- missing value:
+	- two problems: 
+		1. how to choose partition attribute: select the samples that have values on attribute $a$  from training data and calculate the $Gain(D,a)$
+		2. given partition attribute, how to partition the data that have missing value on that attribute: 让同一个样本以不同的概率划入到不同的 子结点中去.  Algorithm C4.5 using this method.
+		
 ## 4.5 多变量决策树
+
 ## 4.6 阅读材料
