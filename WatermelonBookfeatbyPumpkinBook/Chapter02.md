@@ -15,7 +15,7 @@ Ideally, evaluating the generalization error of models which is not possible.
 
 ## 2.2 评估方法
 
-Using testing set to mock new samples, then get simulated generalization error. Ways to generate test set/evaluating generalizability:
+Using testing set to mock new samples, then get simulated generalization error. Ways to generate test set/evaluating generalization ability:
 
 1. hold-out: 留出法
 	
@@ -89,8 +89,8 @@ Problem - Hard to do the evaluation:
 
 Solutions:
 1. hypothesis test:假设检验，如果我们观察到a比b好，那么a的泛化性能是否在统计意义上优于b，以及我们对于这个结论的把握有多大。
-	-** binomial test**
-	-** t-test**
+	-**binomial test**
+	-**t-test**
 2. ** 交叉验证t检验**
 3. **McNemar检验**
 4. **Friedman检验与Nemenyi后续检验**
