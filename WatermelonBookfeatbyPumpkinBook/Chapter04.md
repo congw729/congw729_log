@@ -48,5 +48,14 @@ The key of decision tree is Line 8 in Figure 4.2, how to select the best partiti
 		2. given partition attribute, how to partition the data that have missing value on that attribute: 让同一个样本以不同的概率划入到不同的 子结点中去.  Algorithm C4.5 using this method.
 		
 ## 4.5 多变量决策树
+- axis parallel: 决策树所形成的分类边界有一个明显的特点: 轴平行(axis-parallel),即它的分类边界由若干个与坐标轴平行的分段组成.
+	- ![](img/0004.png)
+- 如果使用斜的划分边界，则可以简化模型 -> multivariate decision tree 就是实现这样的“斜划分”甚至 更复杂划分的决策树。
+	- ![](img/0005.png)
 
 ## 4.6 阅读材料
+- Decision Tree Algorithms: ID3, C4.5, CART. C4.5Rule is an algorithm that transform C4.5 decision tree to symbolic rules. Each branch of decision tree could be rewrite as a rule.
+- Besides information gain, gain rate and Gini index, there are other partition's rules. However, there are experienments show that those rules have limited affects on generalization performance even they could affect the size of decision trees. Pruning have marked effect on generalization performance.
+- Multivariate Decision Tree Algorithms: OC1, Boardley's algorithm, Perceptron tree, etc.
+- Ingremental Learning: Adjust the model when new samples come with retraining the model.
+	- algorithms: ID4, ID5R, ITI
