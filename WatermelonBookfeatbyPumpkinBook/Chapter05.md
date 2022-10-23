@@ -29,7 +29,7 @@
 		- $\Delta$:  
 			- $\Delta w_{hj}= -\eta \frac{\partial E_k}{\partial \hat y_k^j}\frac{\partial \hat y_k^j}{\partial \beta_j} \frac{\partial \beta_j}{w_hj}$
 			- $\Delta\theta_j, \Delta v_{dh}, \Delta \gamma_h$
-	- ![[0008.png]]
+	- ![](0008.png)
 	- goal: minimize the Error $E$ among training data D.
 		- error BP & accumulated BP. Diffs like stochastic GD& GD.
 		- one epoch/round: reading whole training data one time
@@ -39,6 +39,46 @@
 		- regularization: add extra term to objective function, describe the complixity of network, controlled by $\lambda$ (estimited by cross-validation)
 		
 ## 5.4 全局最小与局部最小
+![](0009.png)
+- local minimum: multiple
+- global minimum: only one
+- try to find global minimum:
+	- multiple init parameters -> multiple local minimums -> highly chance to get global minimum
+	- simulated anealing: 模拟退火, 在每一步都以一定的概率接受比当前解更差的结果，从而有助 于 “跳出”局部极小.在每步迭代过程中，接受 “次优解”的概率要随着时间的推移而逐渐降低，从而保证算法稳定.
+	- stochastic gradient descent -> get chance jump from local minimum
+	- genetic algorithms
+	- all algorithms above are heuristic and no theroy proof.
+
 ## 5.5 其他常见神经网络
+- Radial Basis Function (RBF) network:
+	- activation function for hidden neurons: radial basis function
+	- output layer: linear combination of hidden neurons
+- competitive learning: unsupervised learning
+	- 网络的输出神经元相互竞争，每一时刻仅有一个竞 争获胜的神经元被激活，其他神经元的状态被抑制.这种机制亦称“胜者通 吃 (winner-take-all)原则.
+	- Adaptive Resonance Theory (ART): incremental learning / online learning
+	- ART2, FuzzyART, ARTMAP
+	- Self-Organizing Map (SOM): map high dimensional input to low dims and remain their topology.
+- 结构自适应网络：
+	- Cascade-Correlation network: 级联相关网络
+- Recurrent neural networks
+	- Elman
+- Energy-based model
+	- Boltzmann 
+	
 ## 5.6 深度学习
+- Deep Learning:
+	- more hidden layer than more hidden neurons -> BP diverge
+	- pre-training -> fine-tuning 
+		- eg, Deep Belief Network(DBN)
+	- weight sharing: 
+		- eg, CNN, same weight in different chanels.
+	- Deep Learning == feature learning / representation learning 
+		- feature engineering, manually
+		
 ## 5.7 阅读材料
+- Books: 
+	- Haykin, S. (1998). Neural Networks: A Comprehensive Foundation
+	- Bishop, C. M. (1995). Neural Networks for Pattern Recognition.
+- Journals of NN: Neural Computations, Neural Networks, IEEE Transactions on Neural Networks and Learning Systems
+- Conference of NN: NIPS, IJCNN, ICANN, ICONIP
+- Neural network is black-box.
