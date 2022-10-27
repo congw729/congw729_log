@@ -1,7 +1,7 @@
 # 支持向量机
 
 ## 6.1 间隔与支持向量
-![](0010.png)
+![](img/0010.png)
 - support vector
 - margin
 - distance from point $x$ to hyperplane: $r = \frac{|w^Tx + b|}{||w||}$
@@ -30,14 +30,14 @@ Another solution: map the sample from original space to a space with higher dime
 	- exponential loss
 	- logistic loss: almost could be a logistic regression model.
 		- difference: logistic regression model could give probabilities while SVM have to do special ajustments to achive that; the former could be used in multi-class classification while the latter have do 推广（？
-![](0011.png)
+![](img/0011.png)
 - structural risk & emperical risk
 ## 6.5 支持向量回归
 - Support Vector Regression
-- ![](0012.png)
+- ![](img/0012.png)
 ## 6.6 核方法
 - representer theorem:
-	![](0013.png)
+	![](img/0013.png)
 	- kernelized linear disceriminant analysis (KLDA)
 
 ## 6.7 阅读材料

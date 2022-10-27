@@ -6,7 +6,7 @@
 ```
 - neuron/unit : basic component of neurual networks. gets excited -> exceeds threshold/bias -> influnce neighbours 
 - M-P neural model:
-![](0006.png)
+![](img/0006.png)
 - activation function:
 	- ideal: $sng(x) = \{0, 1\}$, but it is not differentiable.
 	- sigmoid: eg, logitstic function, see Chapter3.3. Squashing input values into (0,1).
@@ -22,14 +22,14 @@
 
 ## 5.3 误差逆传播方法
 - error backpropagation (BP)/ 反向传播算法 
-![](0007.png)
+![](img/0007.png)
 	- $dq + ql + q + l$ parameters: dq+ql weights, q+l bias.
 	- gradient descent (GD):
 		- mean squared error for sample$(x_k, y_k)$: $E_k = \frac{1}{2}\sum_{y=1}^l(\hat y_j^k - y_j^k)$
 		- $\Delta$:  
 			- $\Delta w_{hj}= -\eta \frac{\partial E_k}{\partial \hat y_k^j}\frac{\partial \hat y_k^j}{\partial \beta_j} \frac{\partial \beta_j}{w_hj}$
 			- $\Delta\theta_j, \Delta v_{dh}, \Delta \gamma_h$
-	- ![](0008.png)
+	- ![](img/0008.png)
 	- goal: minimize the Error $E$ among training data D.
 		- error BP & accumulated BP. Diffs like stochastic GD& GD.
 		- one epoch/round: reading whole training data one time
@@ -39,7 +39,7 @@
 		- regularization: add extra term to objective function, describe the complixity of network, controlled by $\lambda$ (estimited by cross-validation)
 		
 ## 5.4 全局最小与局部最小
-![](0009.png)
+![](img/0009.png)
 - local minimum: multiple
 - global minimum: only one
 - try to find global minimum:
