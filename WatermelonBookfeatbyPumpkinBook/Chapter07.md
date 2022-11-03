@@ -7,7 +7,7 @@
 		1. discriminative models: given $x$, building model $P(c|x)$, then predict class$c$.
 		2. generative models: building model of joint probability distribution, then get $P(c|x)$.
 			- $P(c|x) = \frac{P(c)P(x|c)}{P(x)}$
-			- $P(c)$: class prior probbility
+			- $P(c)$: class prior probability
 			- $P(x|c)$: class conditional probability / likelihoood
 			- $P(x)$: evidence
 ## 7.2 最大似然估计
@@ -22,13 +22,22 @@
 ```
 
 ## 7.3 朴素贝叶斯分类器 
-- naive Bayes classifer: attribute conditional independence assumption -> to avoid the problem that it is hard to get class conditional probability from finite training samples.
+- naive Bayes classifer: attribute conditional independence assumption -> to avoid the problem that it is hard to get class conditional probability from finite training samples ($P(x|c)$ is joint probability for all classes).
 	- Laplacian correction: do smoothing, add 1 , avoid get zero value probability.
 -Lazy learning: do probability assumtion only when received the predict request
 ## 7.4 半朴素贝叶斯分类器 
+- semi-naive Bayes classifier:
+	- attribute independence assumption hardly holds water in real life 
+	- relaxation on attribute independence assumption 
+	- One-Dependent Estimator (ODE): each attribute is rely on one attribute at most.
+		- super parent (SPODE): one super parent
+		- Tree Augmented naice Bayes (TAN):  simplified maximum weighted spanning tree, only keep the dependency between strong related attributes
+		- averaged (AODE): based on ensemble learning, build SPODE for each attribute that with sufficient training data as  super parent
+	- ODE to kDE?
+		- k increases, training samples need tobe increased exponentially
 ## 7.5 贝叶斯网
 ## 7.6 EM算法
-- Expectation-Maximization Algorithm
+- Expectation-Maximization Algorithm:
 
 ## 7.7 阅读材料
 
