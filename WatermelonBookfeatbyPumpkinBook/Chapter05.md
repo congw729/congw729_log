@@ -2,7 +2,7 @@
 ## 5.1 神经元模型
 - neural networks:  defination from Kohonen,1988:
 ```
-“神经网络是由具有适应性的 简单单元组成的广泛并行互连的网络，它的组织能够模拟生物神经系统对真实 世界物体所作出的交互反应" 
+“神经网络是由具有适应性的简单单元组成的广泛并行互连的网络，它的组织能够模拟生物神经系统对真实 世界物体所作出的交互反应" 
 ```
 - neuron/unit : basic component of neurual networks. gets excited -> exceeds threshold/bias -> influnce neighbours 
 - M-P neural model:

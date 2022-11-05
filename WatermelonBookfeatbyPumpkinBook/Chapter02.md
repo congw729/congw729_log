@@ -36,7 +36,7 @@ Using testing set to mock new samples, then get simulated generalization error. 
 	
 3. bootstrapping: 自助法
 	
-	从数据集中有放回的采样，直到新构建的数据集和原始数据集相同。
+	从数据集中有放回的采样，直到新构建的数据集大小和原始数据集相同。
 	
 	新构建的数据集用于训练，原始数据集中没有被采样到的数据作为测试（大概占原始数据集的36.8%）。
 	
@@ -101,4 +101,3 @@ Solutions:
 - noise: the difference of label and ground truth
 - generalization error: could be seen as the composition of bias, variance and noise.
 
-## 习题
