@@ -8,7 +8,7 @@
 - M-P neural model:
 ![](img/0006.png)
 - activation function:
-	- ideal: $sng(x) = \{0, 1\}$, but it is not differentiable.
+	- ideal: $sng(x) = \lbrace 0, 1 \rbrace$, but it is not differentiable.
 	- sigmoid: eg, logitstic function, see Chapter3.3. Squashing input values into (0,1).
 ## 5.2 感知机与多层网络
 - Perceptron: two layers, input layer -> output layer (M-P neuron/threshold logic unit)
