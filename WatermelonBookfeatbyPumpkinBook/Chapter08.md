@@ -27,7 +27,7 @@
 	- want learner also have good performance -> consider sampling with overlapp
 - Bagging:
 	- repesentitive of parallel ensemble sampling
-	- based on bootstraping sampling in Chapter02
+	- based on **bootstraping sampling** in Chapter02
 	- 采样出T个含m个训练样本的采样集，然后基于每个采样集训练出一个基学习器，再将这些基学习器进行结合
 	- how to get output: simple voting method for classification task; simple averaging method for regression task; if we have same votes, then we just random choose one or consider the confidence for learners.
 	- 训练一个Bagging集成与直接使用基学习算法训练一个学习器的复杂度同阶
