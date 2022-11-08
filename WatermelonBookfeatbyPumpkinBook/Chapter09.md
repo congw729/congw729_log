@@ -44,15 +44,15 @@
 - prototype-based clustering
 	- 算法先对原型进行初始化，然后对原型进行迭代更新求解
 	- **k-means algorithm** 
-		- EM algorithm
-	![](0015.png)
+		- a type of EM algorithm
+	![](img/0015.png)
 	- **learning vector quantization (LVQ)**
 		- lossy compression of vector -> vector quantization
 		- Voronoi tessellation(剖分)
-		![](0016.png)
+		![](img/0016.png)
 	- Mixture of Gaussian (using probability model)
 		- maximize log likelihood, EM algorithm
-	![](0017.png)
+	![](img/0017.png)
 ## 9.5 密度聚类
 - density-based clustering 
 	- **DBSCAN**
@@ -62,11 +62,11 @@
 		- directy density-reachable
 		- density-reachable
 		- density-connected
-		![](0019.png)
+		![](img/0019.png)
 		- cluster: 由密度可达关系导出的最大的密度相连样本集合
 			- conectiviy 
 			- maximality
-		![](0020.png)
+		![](img/0020.png)
 ## 9.6 层次聚类
 - hierarchical clustering
 	- tree-shaped clustering
@@ -74,7 +74,7 @@
 	- **AGNES**
 		- bottom up
 		- treat every sample as init cluster, then merge the closet cluster pair,
-		![](0021.png)
+		![](img/0021.png)
 		- single-linkage: $d = d_min$
 		- complete-linkage: $d = d_max$
 		- average-linkage: $d = d_avg$

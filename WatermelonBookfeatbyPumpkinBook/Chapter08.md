@@ -44,7 +44,7 @@
 		- simple, easy to implement, cost cheap, perform well in many real tasks
 		- diversity not only from sample pertubation, but also from attribute pertubation -> 最终集成的泛化性能可通过个体学习器之间差异度的增加而进一步提升.
 		- 随机森林的训练效率常优于Bagging,因为在个体决策树的构建过程中，Bagging 使用的是“确定型”决策树，在选择划分属性时要对结点的所有属性进行考察, 而随机森林使用的“随机型”决策树则只需考察一个属性子集.
-		- ![](0014.png)
+		- ![](img/0014.png)
 ## 8.4 结合策略
 - 学习器结合的好处：
 	1. 统计角度：由于学习任务的假设空间往往很大，可能有多个假设在训练集上达到同等性能，此时若使用单学习器可能因误选而导致泛化性能不佳，结合多 个学习器则会减小这一风险
