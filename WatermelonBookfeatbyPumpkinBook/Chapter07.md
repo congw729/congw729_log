@@ -24,7 +24,7 @@
 ## 7.3 朴素贝叶斯分类器 
 - naive Bayes classifer: attribute conditional independence assumption -> to avoid the problem that it is hard to get class conditional probability from finite training samples ($P(x|c)$ is joint probability for all classes).
 	- Laplacian correction: do smoothing, add 1 , avoid get zero value probability.
--Lazy learning: do probability assumtion only when received the predict request
+- Lazy learning: do probability assumtion only when received the predict request
 ## 7.4 半朴素贝叶斯分类器 
 - semi-naive Bayes classifier:
 	- attribute independence assumption hardly holds water in real life 
@@ -56,7 +56,7 @@
 			- minimal description length (MDL): 学习的目标是找到一个能以最短编码长度描述训练数据的模型，此时编码的长度包括了描述模型自身所需的字节长度和使用该模型描述数据所需的字节长度.  学习任务就转化为一个优化任务，即寻找一个贝叶斯网B使评分函数 $s(B|D)$最小: 
 					- $s(B|D) = f(\theta)|B| - LL(B|D)$ 
 					- $f(\theta)$ : the size needed for discirbe each param $\theta$
-					- $LL(B|D)$: the log-likelihood of network $B$
+					- $LL(B|D)$: the log-likelihood of network $B$				
 				- Akaike Information Criterion (AIC): when $f(\theta) = 1$
 				- Bayesian Information Criterion (BIC): when $f(\theta) = \frac{1}{2}log_m$
 			- minimize score function -> maximize likelihood of parameter $\Theta$
