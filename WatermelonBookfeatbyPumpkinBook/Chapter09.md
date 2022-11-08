@@ -1,4 +1,4 @@
-聚类
+# 聚类
 ## 9.1 聚类任务
 - clustering: a learning task of unsupervised learning
 - terminology:
@@ -53,7 +53,33 @@
 		- maximize log likelihood, EM algorithm
 	![](0017.png)
 ## 9.5 密度聚类
-
+- density-based clustering 
+	- **DBSCAN**
+		- based on neighborhood 
+		- $\epsilon$-邻域
+		- core object
+		- directy density-reachable
+		- density-reachable
+		- density-connected
+		![](0019.png)
+		- cluster: 由密度可达关系导出的最大的密度相连样本集合
+			- conectiviy 
+			- maximality
+		![](0020.png)
 ## 9.6 层次聚类
-
+- hierarchical clustering
+	- tree-shaped clustering
+	- top down or bottom up division
+	- **AGNES**
+		- bottom up
+		- treat every sample as init cluster, then merge the closet cluster pair,
+		![](0021.png)
+		- single-linkage: $d = d_min$
+		- complete-linkage: $d = d_max$
+		- average-linkage: $d = d_avg$
+		
 ## 9.7 阅读材料
+- Other validity index: F value, mutual information, average silhouette width (平均廓宽)
+- k 均值算法可看作高斯混合聚类在混合成分方差相等、且每个样本仅指派给一个混合成分时的特例
+- cluster ensemble
+- anomaly detection based on clustering / distance computation/ isolation.
