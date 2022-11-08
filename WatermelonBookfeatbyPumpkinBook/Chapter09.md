@@ -43,7 +43,8 @@
 ## 9.4 原型聚类
 - prototype-based clustering
 	- 算法先对原型进行初始化，然后对原型进行迭代更新求解
-	- **k-means algorithm**
+	- **k-means algorithm** 
+		- EM algorithm
 	![](0015.png)
 	- **learning vector quantization (LVQ)**
 		- lossy compression of vector -> vector quantization
