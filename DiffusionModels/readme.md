@@ -2,6 +2,12 @@
 This paper list contains papers of awesome diffusion models in vision (image/video generation) area.
 Click 💡 to access its github.
 
+
+👾 Personal slides:
+1. [Google Slides - Intro to diffusion models](https://docs.google.com/presentation/d/e/2PACX-1vSBq6Mio9NvmAk8snqwxlcAUlVABrJYg8L5itf6AxK6k1MoFEYjXY2b-NVLyG2mu8Ae77p-GhhjLRFw/pub?start=false&loop=false&delayms=3000)
+2. 🌟[Stable Diffusion, explained](
+https://docs.google.com/presentation/d/1KcdpSOyRth0yOkQFlUKgf9263EaLeh0uDjORRoGToFg/edit?usp=sharing) (This version contains important contents from last slides)
+
 Three cornerstone papers of diffusion models:
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](http://proceedings.mlr.press/v37/sohl-dickstein15.html), [💡](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models), Nov 2015, "Diffusion" occured in machine learning first time
 2. **NCSN** [Generative modeling by estimating gradients of the data distribution](https://proceedings.neurips.cc/paper/2019/hash/3001ef257407d5a371a96dcd947c7d93-Abstract.html), [💡](https://github.com/ermongroup/ncsn), Jul 2019, Noice Conditioned Score Network
@@ -72,6 +78,3 @@ Three cornerstone papers of diffusion models:
 2. [Youtube@AICofeeBreak - "diffusion" related videos](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
 3. [Bilibili@deep_thoughts - DDPM algorithm and its codes, video explained (Chinese)](https://www.bilibili.com/video/BV1b541197HX/?spm_id_from=333.337.search-card.all.click&vd_source=12957bc7127f3a408af0ba8928de89b3)
 
-
-👾 Personal slides:
-1. [Google Slides - Intro to diffusion models](https://docs.google.com/presentation/d/e/2PACX-1vSBq6Mio9NvmAk8snqwxlcAUlVABrJYg8L5itf6AxK6k1MoFEYjXY2b-NVLyG2mu8Ae77p-GhhjLRFw/pub?start=false&loop=false&delayms=3000)
