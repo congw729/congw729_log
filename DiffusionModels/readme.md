@@ -42,6 +42,9 @@ Three cornerstone papers of diffusion models:
 3. [**Make-A-Video**: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792), 29 Sep 2022, from Meta AI (Previous work is Make A Scence, VQ-VAE + classifer free guidence)
 4. [**Imagen Video**: High Definition Video Generation with Diffusion Models](https://arxiv.org/abs/2210.02303), 5 Oct 2022, from Google Brain (Also annoced [Phenaki](https://arxiv.org/abs/2210.02399) for long video generation, but it is not diffusion model)
 
+## Object Detection
+1.  [**DiffusionDet**: Diffusion Model for Object Detection](https://arxiv.org/abs/2211.09788) [💡](https://github.com/ShoufaChen/DiffusionDet) 17 Nov 2022, from HKU and Tencent AI
+
 # Natural language:
 1. **Diffusion-LM** [Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/abs/2205.14217), [💡](https://github.com/xiangli1999/diffusion-lm), May 2022, from Stanford University.
 
