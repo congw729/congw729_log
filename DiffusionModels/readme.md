@@ -3,9 +3,10 @@ This paper list contains papers of awesome diffusion models in vision (image/vid
 Click 💡 to access its github.
 
 
-👾 Personal slides:
+👾 Personal notes:
 1. [Google Slides - Intro to diffusion models](https://docs.google.com/presentation/d/e/2PACX-1vSBq6Mio9NvmAk8snqwxlcAUlVABrJYg8L5itf6AxK6k1MoFEYjXY2b-NVLyG2mu8Ae77p-GhhjLRFw/pub?start=false&loop=false&delayms=3000)
 2. 🌟[Google Slides - Stable Diffusion, explained](https://docs.google.com/presentation/d/1KcdpSOyRth0yOkQFlUKgf9263EaLeh0uDjORRoGToFg/edit?usp=sharing) (This version contains important contents from last slides)
+3. [ Review on ICLR 2023 Diffusion related paper](./ICLR2023Diffusion.md)
 
 Three cornerstone papers of diffusion models:
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](http://proceedings.mlr.press/v37/sohl-dickstein15.html), [💡](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models), Nov 2015, "Diffusion" occured in machine learning first time
