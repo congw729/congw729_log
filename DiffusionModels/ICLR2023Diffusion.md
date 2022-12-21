@@ -1,4 +1,7 @@
-# ICLR 2023 Review on Diffusion Related Paper
+# ICLR 2023 Review on Diffusion Related Papers
+Click [here](https://docs.google.com/spreadsheets/d/1WwhM-YvEBJnLk45uC_JLv2maA4tFbGwx4UYs9I2sXTY/edit?usp=sharing) to see the full list of diffusion related papers from ICLR 2023.
+
+*Papers are listed by descending order of averaging score*
 ## DreamFusion
 | | |
 |--|--|
@@ -11,9 +14,9 @@
 ![](img/0001.png)
 ![](img/0002.png)
 1. **Task**
-	text-to-3D synthesis
+	Text-to-3D synthesis
 2. **Problem**
-	large-scale datasets and efficient architectures for denoising 3D data
+	Other works need large-scale datasets and efficient architectures for denoising 3D data
 3. **Method**
 	Pretrained 2D text-to-image diffusion model to perform text-to-3D synthesis. 
 	Introduce a loss based on probability density distillation that enables the use of a 2D diffusion model as a prior for optimization of a parametric image generator.
@@ -40,6 +43,45 @@
 	}
 	</code></pre>
 </details>
+
+## DIFFORMER
+| | |
+|--|--|
+|Title| Geometric Networks Induced by Energy Constrained Diffusion|
+|Paper Link|https://openreview.net/pdf?id=j6zUzrapY3L |
+|Institute | Anonymous authors|
+| Github| Not open source|
+
+![](img/0003.png)
+1. **Task**
+	Real-word data generation
+2. **Problem**
+	Complex inter-dependencies among instances involved,  a challenge for uncovering the geometric structures for learning desired instance representation. 
+3. **Method**
+	 Energy constrained diffusion model - it encodes a batch of instances from a dataset into evolutionary states that progressively incorporate other instances' information by their interactions.
+	Propose a new class of neural encoders, Diffusion-based Transformer (DIFFORMER), with two instantiations: a simple version with linear complexity for prohibitive instance numbers, and an advanced version for learning complex structures.
+4. **Performance**
+	- No exactly training time specified, but DIFFORMER could use Tesla V100 16GB for mini-batch training.
+	- Applicable ownstream tasks: semi-supervised node classification, image/text classification, and spatial-temporal dynamics prediction.
+5. **Dataset**
+	 - For node classification: Cora, Citeseer, Pubmed, Proteins, Pokec.
+	 - For image and text classification: STL-10, CIFAR-10.
+	 - For spatial-temperoal datasets: Chickenpox, Covid, WikiMath (all from PyTorch Geometric Temporal)
+6. **Model's information**
+	simple diffusivity model ( $O(NKd^2)$ ) + advanced diffusivity model ( $O(N^2Kd^2)$ )
+
+<details>  
+	<summary>Abstract and Bibtex</summary>  
+	<p> 
+	  Real-world data generation often involves complex inter-dependencies among instances, violating the IID-data hypothesis of standard learning paradigms and posing a challenge for uncovering the geometric structures for learning desired instance representations. To this end, we introduce an energy constrained diffusion model which encodes a batch of instances from a dataset into evolutionary states that progressively incorporate other instances’ information by their interactions. The diffusion process is constrained by descent criteria w.r.t. a principled energy function that characterizes the global consistency of instance representations over latent structures. We provide rigorous theory that implies closed-form optimal estimates for the pairwise diffusion strength among arbitrary instance pairs, which gives rise to a new class of neural encoders, dubbed as DIFFORMER, with two instantiations: a simple version with linear complexity for prohibitive instance numbers, and an advanced version for learning complex structures. Experiments highlight the wide applicability of our model as a general-purpose encoder backbone with superior performance in various tasks, such as semi-supervised node classification, image/text classification, and spatial-temporal dynamics prediction.
+	</p> 
+	
+	<pre><code>
+	Currently, no BibTex provided since it is anonymous
+	</code></pre>
+
+</details>
+
 
 
 
