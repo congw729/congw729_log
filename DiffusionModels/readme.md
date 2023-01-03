@@ -22,13 +22,14 @@ Three cornerstone papers of diffusion models:
 4. LSGM, [Score-based Generative Modeling in Latent Space](https://arxiv.org/abs/2106.05931), [💡](https://github.com/NVlabs/LSGM) Jun 2021, from NVIDIA, NeurIPS 2021.
 5. Distilled-DM,[Progressive Distillation for Fast Sampling of Diffusion Models](https://arxiv.org/abs/2202.00512), [💡](https://github.com/google-research/google-research/tree/master/diffusion_distillation), Feb 2022, from Google Brain, ICLR 2022.
 6. GGDM, [Learning Fast Samplers for Diffusion Models by Differentiating Through Sample Quality](http://arxiv.org/abs/2202.05830) Feb 2022, from Google Brain, ICLR 2022.
+7. EDM, [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364),  [💡](https://github.com/NVlabs/edm) Jun 2022, from NVIDIA, NeurIPS 2022 (**Oustanding Paper Award**)
 
 ## Text to Image
 1. 🌟**Stable Diffusion/LDM** [High-resolution image synthesis with latent diffusion models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html), [💡](https://github.com/CompVis/latent-diffusion)  Dec 2021, from Stability.AI & LMU Munic & Runway. Very awoesome for releasing codes & weights for free!
 2. [**Glide**: Towards photorealistic image generation and editing with text-guided diffusion models](https://arxiv.org/abs/2112.10741), [💡](https://github.com/openai/glide-text2im), Dec 2021, from OpenAI
 3. **Dalle-2** [Hierarchical text-conditional image generation with clip latents](https://arxiv.org/abs/2204.06125), [💡](https://github.com/lucidrains/DALLE2-pytorch) Apr 2022, from OpenAI. Btw, Dalle using different architecture -  VQ-VAE. 
 4. [**KNN Diffusion**: Image Generation via Large-Scale Retrieval](https://arxiv.org/abs/2204.02849) Apr 2022, from Meta AI.
-5. [**Imagen**:Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487), [💡](https://github.com/lucidrains/imagen-pytorch) May 2022,  from Google Brain. Using pretrained languange model - T5.
+5. [**Imagen**:Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487), [💡](https://github.com/lucidrains/imagen-pytorch) May 2022,  from Google Brain. NeurIPS 2022 (**Oustanding Paper Award**) Using pretrained languange model - T5.
 6. LAION-RDM, [Text-Guided Synthesis of Artistic Images with Retrieval-Augmented Diffusion Models](https://arxiv.org/abs/2207.13038), [💡](https://github.com/compvis/latent-diffusion), Jul 2022, from Ludwig-Maximilian University of Munich.
 7. [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242), [💡](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion), Aug 2022, from Google Research & Boston University.
 8. [**DreamFusion**: Text-to-3D using 2D Diffusion](https://arxiv.org/abs/2209.14988), [💡](https://github.com/ashawkey/stable-dreamfusion), 29 Sep 2022, from Google Research & UCB.
