@@ -1,12 +1,17 @@
-# Awesome Paper List of Diffusion Models
-This paper list contains papers of awesome diffusion models in vision (image/video generation) area.
-Click 💡 to access its github.
-
-
 👾 Personal notes:
 1. [Google Slides - Intro to diffusion models](https://docs.google.com/presentation/d/e/2PACX-1vSBq6Mio9NvmAk8snqwxlcAUlVABrJYg8L5itf6AxK6k1MoFEYjXY2b-NVLyG2mu8Ae77p-GhhjLRFw/pub?start=false&loop=false&delayms=3000)
 2. 🌟[Google Slides - Stable Diffusion, explained](https://docs.google.com/presentation/d/1KcdpSOyRth0yOkQFlUKgf9263EaLeh0uDjORRoGToFg/edit?usp=sharing) (This version contains important contents from last slides)
 3. [ Review on ICLR 2023 Diffusion related paper](./ICLR2023Diffusion.md)
+
+🦄 **Some good materials to get start with:**
+1. [Lilianweng's Log - What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models) 
+2. [The Annotated Diffusion Model@HuggingFace](https://huggingface.co/blog/annotate)
+3. [Youtube@AICofeeBreak - "diffusion" related videos](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
+4. [Bilibili@deep_thoughts - DDPM algorithm and its codes, video explained (Chinese)](https://www.bilibili.com/video/BV1b541197HX/?spm_id_from=333.337.search-card.all.click&vd_source=12957bc7127f3a408af0ba8928de89b3)
+
+# Awesome Paper List of Diffusion Models
+This paper list contains papers of awesome diffusion models in different areas.
+Click 💡 to access its github.
 
 Three cornerstone papers of diffusion models:
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](http://proceedings.mlr.press/v37/sohl-dickstein15.html), [💡](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models), Nov 2015, "Diffusion" occured in machine learning first time
@@ -17,7 +22,8 @@ Three cornerstone papers of diffusion models:
 1. DDIM: Denoising Diffusion Implicit Models 
 2. PLMS: Pseudo Numerical Methods for Diffusion Models on Manifolds ICLR2022
 3. Analytic-DPM
-4. DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps NIPS2-22
+4. EDM, [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364),  [💡](https://github.com/NVlabs/edm) Jun 2022, from NVIDIA, NeurIPS 2022 (**Oustanding Paper Award**)
+5. DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps NIPS2022
 
 # Vision
 ## Image generation
@@ -27,7 +33,7 @@ Three cornerstone papers of diffusion models:
 4. LSGM, [Score-based Generative Modeling in Latent Space](https://arxiv.org/abs/2106.05931), [💡](https://github.com/NVlabs/LSGM) Jun 2021, from NVIDIA, NeurIPS 2021.
 5. Distilled-DM,[Progressive Distillation for Fast Sampling of Diffusion Models](https://arxiv.org/abs/2202.00512), [💡](https://github.com/google-research/google-research/tree/master/diffusion_distillation), Feb 2022, from Google Brain, ICLR 2022.
 6. GGDM, [Learning Fast Samplers for Diffusion Models by Differentiating Through Sample Quality](http://arxiv.org/abs/2202.05830) Feb 2022, from Google Brain, ICLR 2022.
-7. EDM, [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364),  [💡](https://github.com/NVlabs/edm) Jun 2022, from NVIDIA, NeurIPS 2022 (**Oustanding Paper Award**)
+
 
 ## Text to Image
 1. 🌟**Stable Diffusion/LDM** [High-resolution image synthesis with latent diffusion models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html), [💡](https://github.com/CompVis/latent-diffusion)  Dec 2021, from Stability.AI & LMU Munic & Runway. Very awoesome for releasing codes & weights for free!
@@ -85,8 +91,4 @@ Three cornerstone papers of diffusion models:
 
 
 
-🦄 **Some good materials to get start with:**
-1. [Lilianweng's Log - What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models)
-2. [Youtube@AICofeeBreak - "diffusion" related videos](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
-3. [Bilibili@deep_thoughts - DDPM algorithm and its codes, video explained (Chinese)](https://www.bilibili.com/video/BV1b541197HX/?spm_id_from=333.337.search-card.all.click&vd_source=12957bc7127f3a408af0ba8928de89b3)
 
