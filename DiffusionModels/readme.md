@@ -14,9 +14,10 @@ Three cornerstone papers of diffusion models:
 3. **DDPM** [Denoising diffusion probabilistic models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html), [💡](https://github.com/hojonathanho/diffusion), Jun 2020, could seen as cornerstone of following diffusion model works
 
 # Speed Up
-1. DDIM
-2. PLMS
-3. DPM-SOLVER
+1. DDIM: Denoising Diffusion Implicit Models 
+2. PLMS: Pseudo Numerical Methods for Diffusion Models on Manifolds ICLR2022
+3. Analytic-DPM
+4. DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps NIPS2-22
 
 # Vision
 ## Image generation
@@ -52,7 +53,7 @@ Three cornerstone papers of diffusion models:
 1.  [**DiffusionDet**: Diffusion Model for Object Detection](https://arxiv.org/abs/2211.09788) [💡](https://github.com/ShoufaChen/DiffusionDet) 17 Nov 2022, from HKU and Tencent AI
 
 ## Segmentation
-1. A Generalist Framework for Panoptic Segmentation of Images and Videos
+1.Pix2Seq-D: A Generalist Framework for Panoptic Segmentation of Images and Videos
 
 # Natural language:
 1. **Diffusion-LM** [Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/abs/2205.14217), [💡](https://github.com/xiangli1999/diffusion-lm), May 2022, from Stanford University.
