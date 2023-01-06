@@ -24,6 +24,7 @@ Three cornerstone papers of diffusion models:
 3. Analytic-DPM
 4. EDM, [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364),  [💡](https://github.com/NVlabs/edm) Jun 2022, from NVIDIA, NeurIPS 2022 (**Oustanding Paper Award**)
 5. DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps NIPS2022
+6. DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models ICLR2023
 
 # Vision
 ## Image generation
