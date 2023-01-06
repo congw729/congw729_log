@@ -1,6 +1,6 @@
 👾 Personal notes:
 1. [Google Slides - Intro to diffusion models](https://docs.google.com/presentation/d/e/2PACX-1vSBq6Mio9NvmAk8snqwxlcAUlVABrJYg8L5itf6AxK6k1MoFEYjXY2b-NVLyG2mu8Ae77p-GhhjLRFw/pub?start=false&loop=false&delayms=3000)
-2. 🌟[Google Slides - Stable Diffusion, explained](https://docs.google.com/presentation/d/1KcdpSOyRth0yOkQFlUKgf9263EaLeh0uDjORRoGToFg/edit?usp=sharing) (This version contains important contents from last slides)
+2. 🌟[Google Slides - Stable Diffusion, explained](https://docs.google.com/presentation/d/1KcdpSOyRth0yOkQFlUKgf9263EaLeh0uDjORRoGToFg/edit?usp=sharing) (This version contains important contents from previous slides)
 3. [ Review on ICLR 2023 Diffusion related paper](./ICLR2023Diffusion.md)
 
 🦄 **Some good materials to get start with:**
@@ -24,7 +24,7 @@ Three cornerstone papers of diffusion models:
 3. Analytic-DPM
 4. EDM, [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364),  [💡](https://github.com/NVlabs/edm) Jun 2022, from NVIDIA, NeurIPS 2022 (**Oustanding Paper Award**)
 5. DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps NIPS2022
-6. DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models ICLR2023
+6. DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models 
 
 # Vision
 ## Image generation
@@ -50,6 +50,8 @@ Three cornerstone papers of diffusion models:
 1. SDEdit, [SDEdit: Image Synthesis and Editing with Stochastic Differential Equations](https://arxiv.org/abs/2108.01073), [💡](https://github.com/ermongroup/SDEdit) Aug 2021, from Stanford University & Carnegie Mellon University, ICLR 2022
 2. RePaint, [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2201.09865), [💡]([https://github.com/ermongroup/SDEdit](https://github.com/andreas128/RePaint)), Jan 2022, from ETH Zurich, CVPR 2022.
 
+## Image Captioning
+1. Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning. ICLR 2023
 ## Video Genereation: 
 1. [**Video diffusion models**](https://arxiv.org/abs/2204.03458), Apr 2022, ICLR 2022 Workshop. GIF like.
 2. [MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation](https://arxiv.org/abs/2205.09853), [💡](https://github.com/voletiv/mcvd-pytorch), May 2022, from University of Montreal
