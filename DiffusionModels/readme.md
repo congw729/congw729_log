@@ -8,6 +8,7 @@
 2. [The Annotated Diffusion Model@HuggingFace](https://huggingface.co/blog/annotate)
 3. [Youtube@AICofeeBreak - "diffusion" related videos](https://www.youtube.com/c/AICoffeeBreak/search?query=diffusion)
 4. [Bilibili@deep_thoughts - DDPM algorithm and its codes, video explained (Chinese)](https://www.bilibili.com/video/BV1b541197HX/?spm_id_from=333.337.search-card.all.click&vd_source=12957bc7127f3a408af0ba8928de89b3)
+5. [生成扩散模型漫谈@苏剑林 ](https://kexue.fm/archives/9119) （系列文章，这里只列出第一篇）
 
 # Awesome Paper List of Diffusion Models
 This paper list contains papers of awesome diffusion models in different areas.
