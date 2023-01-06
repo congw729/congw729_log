@@ -13,6 +13,10 @@ Three cornerstone papers of diffusion models:
 2. **NCSN** [Generative modeling by estimating gradients of the data distribution](https://proceedings.neurips.cc/paper/2019/hash/3001ef257407d5a371a96dcd947c7d93-Abstract.html), [💡](https://github.com/ermongroup/ncsn), Jul 2019, Noice Conditioned Score Network
 3. **DDPM** [Denoising diffusion probabilistic models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html), [💡](https://github.com/hojonathanho/diffusion), Jun 2020, could seen as cornerstone of following diffusion model works
 
+# Speed Up
+1. DDIM
+2. PLMS
+3. DPM-SOLVER
 
 # Vision
 ## Image generation
@@ -46,6 +50,9 @@ Three cornerstone papers of diffusion models:
 
 ## Object Detection
 1.  [**DiffusionDet**: Diffusion Model for Object Detection](https://arxiv.org/abs/2211.09788) [💡](https://github.com/ShoufaChen/DiffusionDet) 17 Nov 2022, from HKU and Tencent AI
+
+## Segmentation
+1. A Generalist Framework for Panoptic Segmentation of Images and Videos
 
 # Natural language:
 1. **Diffusion-LM** [Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/abs/2205.14217), [💡](https://github.com/xiangli1999/diffusion-lm), May 2022, from Stanford University.
