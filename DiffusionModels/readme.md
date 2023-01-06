@@ -52,7 +52,8 @@ Three cornerstone papers of diffusion models:
 2. RePaint, [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2201.09865), [💡]([https://github.com/ermongroup/SDEdit](https://github.com/andreas128/RePaint)), Jan 2022, from ETH Zurich, CVPR 2022.
 
 ## Image Captioning
-1. Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning. ICLR 2023
+1. Bit Diffusion: Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning. ICLR 2023
+
 ## Video Genereation: 
 1. [**Video diffusion models**](https://arxiv.org/abs/2204.03458), Apr 2022, ICLR 2022 Workshop. GIF like.
 2. [MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation](https://arxiv.org/abs/2205.09853), [💡](https://github.com/voletiv/mcvd-pytorch), May 2022, from University of Montreal
@@ -63,7 +64,7 @@ Three cornerstone papers of diffusion models:
 1.  [**DiffusionDet**: Diffusion Model for Object Detection](https://arxiv.org/abs/2211.09788) [💡](https://github.com/ShoufaChen/DiffusionDet) 17 Nov 2022, from HKU and Tencent AI
 
 ## Segmentation
-1.Pix2Seq-D: A Generalist Framework for Panoptic Segmentation of Images and Videos
+1. Pix2Seq-D: A Generalist Framework for Panoptic Segmentation of Images and Videos
 
 # Natural language:
 1. **Diffusion-LM** [Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/abs/2205.14217), [💡](https://github.com/xiangli1999/diffusion-lm), May 2022, from Stanford University.
