@@ -51,6 +51,8 @@ Cornerstone papers of diffusion models:
 ## Image Editing
 1. SDEdit, [SDEdit: Image Synthesis and Editing with Stochastic Differential Equations](https://arxiv.org/abs/2108.01073), [💡](https://github.com/ermongroup/SDEdit) Aug 2021, from Stanford University & Carnegie Mellon University, ICLR 2022
 2. RePaint, [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2201.09865), [💡]([https://github.com/ermongroup/SDEdit](https://github.com/andreas128/RePaint)), Jan 2022, from ETH Zurich, CVPR 2022.
+3. [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626), Aug 2022, from Google. 
+4. DiffEdit, [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427), Oct 2022, from Meta AI, 
 
 ## Image Captioning
 1. Bit Diffusion, [Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning](https://arxiv.org/abs/2208.04202), from Google Brain, ICLR 2023, analog bits, self conditioning and ssymmetric time intervals. (Also could be used in discrete/categorical image generation task)
