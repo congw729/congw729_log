@@ -22,11 +22,12 @@ Cornerstone papers of diffusion models:
 
 # Speed Up
 1. DDIM: Denoising Diffusion Implicit Models 
-2. PLMS: Pseudo Numerical Methods for Diffusion Models on Manifolds ICLR2022
+2. PLMS: Pseudo Numerical Methods for Diffusion Models on Manifolds ICLR 2022
 3. Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models, ICLR2022 (**Outstanding Paper Award**)
 4. EDM, [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364),  [💡](https://github.com/NVlabs/edm) Jun 2022, from NVIDIA, NeurIPS 2022 (**Oustanding Paper Award**)
-5. DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps NIPS2022
-6. DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models 
+5. Diffusion-GAN: Training GANs with Diffusion (https://arxiv.org/abs/2206.02262), [💡](https://github.com/Zhendong-Wang/Diffusion-GAN), Jun 2022, from Microsoft Azure AI.
+6. DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps, NeurIPS 2022
+7. DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models 
 
 # Vision
 ## Image generation
@@ -55,7 +56,7 @@ Cornerstone papers of diffusion models:
 4. DiffEdit, [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427), Oct 2022, from Meta AI, 
 
 ## Image Captioning
-1. Bit Diffusion, [Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning](https://arxiv.org/abs/2208.04202), from Google Brain, ICLR 2023, analog bits, self conditioning and ssymmetric time intervals. (Also could be used in discrete/categorical image generation task)
+1. Bit Diffusion, [Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning](https://arxiv.org/abs/2208.04202), from Google Brain, ICLR 2023, analog bits, self conditioning and asymmetric time intervals. (Also could be used in discrete/categorical image generation task)
 
 ## Video Genereation: 
 1. [**Video diffusion models**](https://arxiv.org/abs/2204.03458), Apr 2022, ICLR 2022 Workshop. GIF like.
