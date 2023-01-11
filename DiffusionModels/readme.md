@@ -53,7 +53,7 @@ Cornerstone papers of diffusion models:
 2. RePaint, [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2201.09865), [💡]([https://github.com/ermongroup/SDEdit](https://github.com/andreas128/RePaint)), Jan 2022, from ETH Zurich, CVPR 2022.
 
 ## Image Captioning
-1. Bit Diffusion, [Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning](https://arxiv.org/abs/2208.04202), ICLR 2023
+1. Bit Diffusion, [Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning](https://arxiv.org/abs/2208.04202), from Google Brain, ICLR 2023, analog bits, self conditioning and ssymmetric time intervals. (Also could be used in discrete/categorical image generation task)
 
 ## Video Genereation: 
 1. [**Video diffusion models**](https://arxiv.org/abs/2204.03458), Apr 2022, ICLR 2022 Workshop. GIF like.
