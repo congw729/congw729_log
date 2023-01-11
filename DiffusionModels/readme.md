@@ -14,10 +14,11 @@
 This paper list contains papers of awesome diffusion models in different areas.
 Click 💡 to access its github.
 
-Three cornerstone papers of diffusion models:
+Cornerstone papers of diffusion models:
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](http://proceedings.mlr.press/v37/sohl-dickstein15.html), [💡](https://github.com/Sohl-Dickstein/Diffusion-Probabilistic-Models), Nov 2015, "Diffusion" occured in machine learning first time
 2. **NCSN** [Generative modeling by estimating gradients of the data distribution](https://proceedings.neurips.cc/paper/2019/hash/3001ef257407d5a371a96dcd947c7d93-Abstract.html), [💡](https://github.com/ermongroup/ncsn), Jul 2019, Noice Conditioned Score Network
 3. **DDPM** [Denoising diffusion probabilistic models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html), [💡](https://github.com/hojonathanho/diffusion), Jun 2020, could seen as cornerstone of following diffusion model works
+4. [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456), Nov 2020, from SDE perspective, lots of math...
 
 # Speed Up
 1. DDIM: Denoising Diffusion Implicit Models 
@@ -35,8 +36,7 @@ Three cornerstone papers of diffusion models:
 4. LSGM, [Score-based Generative Modeling in Latent Space](https://arxiv.org/abs/2106.05931), [💡](https://github.com/NVlabs/LSGM) Jun 2021, from NVIDIA, NeurIPS 2021.
 5. Distilled-DM,[Progressive Distillation for Fast Sampling of Diffusion Models](https://arxiv.org/abs/2202.00512), [💡](https://github.com/google-research/google-research/tree/master/diffusion_distillation), Feb 2022, from Google Brain, ICLR 2022.
 6. GGDM, [Learning Fast Samplers for Diffusion Models by Differentiating Through Sample Quality](http://arxiv.org/abs/2202.05830) Feb 2022, from Google Brain, ICLR 2022.
-7. DiT, [Scalable Diffusion Models with Transformers](https://arxiv.org/pdf/2212.09748.pdf), Dec 2022, from UCB.
-
+7. DiT, [Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748), Dec 2022, from UCB. Replace Unet with transformer with adaptive layer norm layers.
 
 ## Text to Image
 1. 🌟**Stable Diffusion/LDM** [High-resolution image synthesis with latent diffusion models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html), [💡](https://github.com/CompVis/latent-diffusion)  Dec 2021, from Stability.AI & LMU Munic & Runway. Very awoesome for releasing codes & weights for free!
@@ -53,7 +53,7 @@ Three cornerstone papers of diffusion models:
 2. RePaint, [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2201.09865), [💡]([https://github.com/ermongroup/SDEdit](https://github.com/andreas128/RePaint)), Jan 2022, from ETH Zurich, CVPR 2022.
 
 ## Image Captioning
-1. Bit Diffusion: Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning. ICLR 2023
+1. Bit Diffusion, [Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning](https://arxiv.org/abs/2208.04202), ICLR 2023
 
 ## Video Genereation: 
 1. [**Video diffusion models**](https://arxiv.org/abs/2204.03458), Apr 2022, ICLR 2022 Workshop. GIF like.
@@ -91,7 +91,7 @@ Three cornerstone papers of diffusion models:
 
 ## Text to Speech
 1. Grad-TTS, [Grad-TTS: A Diffusion Probabilistic Model for Text-to-Speech](https://arxiv.org/abs/2111.11755), May 2021, from Huawei Noah
-2. EdiTTS, [EdiTTS: Score-based Editing for Controllable Text-to-Speech](https://arxiv.org/abs/2110.02584.pdf), [💡](https://github.com/neosapience/EdiTTS) Oct 2021, from Yale University & Supertone Inc & Neosapience Inc
+2. EdiTTS, [EdiTTS: Score-based Editing for Controllable Text-to-Speech](https://arxiv.org/abs/2110.02584), [💡](https://github.com/neosapience/EdiTTS) Oct 2021, from Yale University & Supertone Inc & Neosapience Inc
 3. DiffGAN-TTS, [DiffGAN-TTS: High-Fidelity and Efficient Text-to-Speech with Denoising Diffusion GANs](https://arxiv.org/abs/2201.11972), [💡](https://github.com/keonlee9420/DiffGAN-TTS), Jan 2022, from Tencent AI Lab
 4. Diffsound, [Diffsound: Discrete Diffusion Model for Text-to-sound Generation](https://arxiv.org/abs/2207.09983), [💡](https://github.com/yangdongchao/text-to-sound-synthesis-demo), Jul 2022, from Beijing University & Tencent AI Lab
 
