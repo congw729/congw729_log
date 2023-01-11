@@ -35,6 +35,7 @@ Three cornerstone papers of diffusion models:
 4. LSGM, [Score-based Generative Modeling in Latent Space](https://arxiv.org/abs/2106.05931), [💡](https://github.com/NVlabs/LSGM) Jun 2021, from NVIDIA, NeurIPS 2021.
 5. Distilled-DM,[Progressive Distillation for Fast Sampling of Diffusion Models](https://arxiv.org/abs/2202.00512), [💡](https://github.com/google-research/google-research/tree/master/diffusion_distillation), Feb 2022, from Google Brain, ICLR 2022.
 6. GGDM, [Learning Fast Samplers for Diffusion Models by Differentiating Through Sample Quality](http://arxiv.org/abs/2202.05830) Feb 2022, from Google Brain, ICLR 2022.
+7. DiT, [Scalable Diffusion Models with Transformers](https://arxiv.org/pdf/2212.09748.pdf), Dec 2022, from UCB.
 
 
 ## Text to Image
