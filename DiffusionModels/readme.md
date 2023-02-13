@@ -53,7 +53,9 @@ Cornerstone papers of diffusion models:
 1. SDEdit, [SDEdit: Image Synthesis and Editing with Stochastic Differential Equations](https://arxiv.org/abs/2108.01073), [💡](https://github.com/ermongroup/SDEdit) Aug 2021, from Stanford University & Carnegie Mellon University, ICLR 2022
 2. RePaint, [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2201.09865), [💡]([https://github.com/ermongroup/SDEdit](https://github.com/andreas128/RePaint)), Jan 2022, from ETH Zurich, CVPR 2022.
 3. [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626), Aug 2022, from Google. 
-4. DiffEdit, [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427), Oct 2022, from Meta AI, 
+4. DiffEdit, [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427), Oct 2022, from Meta AI.
+5. InstructPix2Pix, [InstructPix2Pix: Learning to Follow Image Editing Instructions](https://arxiv.org/abs/2211.09800) [💡](https://github.com/timothybrooks/instruct-pix2pix), Nov 2022, from UC Berkeley (Using GPT-3)
+6. [Diffusion Guided Domain Adaptation of Image Generators](https://arxiv.org/abs/2212.04473), [💡](https://github.com/KunpengSong/styleganfusion) Dec 2022 from Rutgers University
 
 ## Image Captioning
 1. Bit Diffusion, [Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning](https://arxiv.org/abs/2208.04202), from Google Brain, ICLR 2023, analog bits, self conditioning and asymmetric time intervals. (Also could be used in discrete/categorical image generation task)
