@@ -1,7 +1,10 @@
 # ICLR 2023 Review on Diffusion Related Papers
 Click [here](https://docs.google.com/spreadsheets/d/1WwhM-YvEBJnLk45uC_JLv2maA4tFbGwx4UYs9I2sXTY/edit?usp=sharing) to see the full list of diffusion related papers from ICLR 2023.
+Click [here](https://openreview.net/group?id=ICLR.cc/2023/Conference) to see the accept papers' list of ICLR 2023.
 
 *Papers are listed by descending order of averaging score*
+
+# Notable Top 5%
 ## DreamFusion
 | | |
 |--|--|
@@ -42,12 +45,17 @@ Click [here](https://docs.google.com/spreadsheets/d/1WwhM-YvEBJnLk45uC_JLv2maA4t
 	}
 </details>
 
+## Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions 
+
+## Is Conditional Generative Modeling all you need for Decision Making?
+
+# Notable Top 25% 
 ## DIFFORMER
 | | |
 |--|--|
 |Title| Geometric Networks Induced by Energy Constrained Diffusion|
 |Paper Link|https://openreview.net/pdf?id=j6zUzrapY3L |
-|Institute | Anonymous authors|
+|Institute | Shanghai Jiao Tong University |
 | Github| Not open source|
 
 ![](img/0003.png)
