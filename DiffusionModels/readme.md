@@ -2,6 +2,7 @@
 1. [Google Slides - Intro to diffusion models](https://docs.google.com/presentation/d/e/2PACX-1vSBq6Mio9NvmAk8snqwxlcAUlVABrJYg8L5itf6AxK6k1MoFEYjXY2b-NVLyG2mu8Ae77p-GhhjLRFw/pub?start=false&loop=false&delayms=3000)
 2. 🌟[Google Slides - Stable Diffusion, explained](https://docs.google.com/presentation/d/1KcdpSOyRth0yOkQFlUKgf9263EaLeh0uDjORRoGToFg/edit?usp=sharing) (This version contains important contents from previous slides)
 3. [ Review on ICLR 2023 Diffusion related paper](./ICLR2023Diffusion.md)
+4. [ Google Slides - ControlNet, explained](https://docs.google.com/presentation/d/1NN_g13U10Q2jG8z-yU1-RZDqMmJBk0DisVOT1IN7_DI/edit?usp=sharing)
 
 🦄 **Some good materials to get start with:**
 1. [Lilianweng's Log - What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models) 
